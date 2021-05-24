@@ -8,7 +8,7 @@ CLI application with minimalistic UI design
 - OOP;
 - DDD (Domain-driven design);
 - Dependency injection
-- Interfaces (for good tests, but only)
+- Interfaces (for good tests, but not only)
 - Extensions
 - Services
 - LINQ
