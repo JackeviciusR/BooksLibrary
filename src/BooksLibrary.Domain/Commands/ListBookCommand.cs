@@ -56,7 +56,7 @@ namespace BooksLibrary.Domain.Commands
             var filterValue = "";
             if (!Equals(filterBy, "AVAIL") && !Equals(filterBy, "TAK") )
             {
-                filterValue = _writer.ReadLine($"Enter filtered value:");
+                filterValue = _writer.ReadLine($"Enter filtered value:").ToUpper();
             }
 
             var filtratedBooks = FilterBy(filterBy, books, filterValue);
