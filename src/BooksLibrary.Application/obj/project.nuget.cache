@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7/R18Vp2cQy3nTWohARCPQrYrMkh5194yVvmy6r8swcUpvZ8yi1zrFfb+Dha29CKqBFZsKH46/hrzEu+eYW0UA==",
+  "success": true,
+  "projectFilePath": "E:\\Programavimas\\BIT mokymai\\NET\\BooksLibrary\\src\\BooksLibrary.Application\\BooksLibrary.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rokas\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

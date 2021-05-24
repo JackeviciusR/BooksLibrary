@@ -1,0 +1,4 @@
+{"Name":"PAVADINIMAS01","Author":"AUTORIUS01","Category":"PIRMA","Language":"LT","PublicationDate":"2020","ISBN":"00001","ClientId":null,"TakenDate":null,"DeadlineDate":null}
+{"Name":"PAVADINIMAS03","Author":"AUTORIUS02","Category":"PIRMA","Language":"LT","PublicationDate":"2020","ISBN":"00003","ClientId":null,"TakenDate":null,"DeadlineDate":null}
+{"Name":"PAVADINIMAS04","Author":"AUTORIUS03","Category":"PIRMA","Language":"LT","PublicationDate":"2016","ISBN":"00004","ClientId":null,"TakenDate":null,"DeadlineDate":null}
+{"Name":"PAVADINIMAS02","Author":"AUTORIUS02","Category":"ANTRA","Language":"EN","PublicationDate":"2016","ISBN":"00002","ClientId":11111,"TakenDate":"2021-05-24T10:09:59.5952356+03:00","DeadlineDate":"2021-07-24T10:09:59.6040363+03:00"}

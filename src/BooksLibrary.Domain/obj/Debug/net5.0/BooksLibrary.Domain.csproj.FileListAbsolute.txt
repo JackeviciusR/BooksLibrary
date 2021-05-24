@@ -1,0 +1,12 @@
+E:\Programavimas\BIT mokymai\NET\BooksLibrary\src\BooksLibrary.Domain\bin\Debug\net5.0\BooksLibrary.Domain.deps.json
+E:\Programavimas\BIT mokymai\NET\BooksLibrary\src\BooksLibrary.Domain\bin\Debug\net5.0\BooksLibrary.Domain.dll
+E:\Programavimas\BIT mokymai\NET\BooksLibrary\src\BooksLibrary.Domain\bin\Debug\net5.0\ref\BooksLibrary.Domain.dll
+E:\Programavimas\BIT mokymai\NET\BooksLibrary\src\BooksLibrary.Domain\bin\Debug\net5.0\BooksLibrary.Domain.pdb
+E:\Programavimas\BIT mokymai\NET\BooksLibrary\src\BooksLibrary.Domain\obj\Debug\net5.0\BooksLibrary.Domain.csprojAssemblyReference.cache
+E:\Programavimas\BIT mokymai\NET\BooksLibrary\src\BooksLibrary.Domain\obj\Debug\net5.0\BooksLibrary.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programavimas\BIT mokymai\NET\BooksLibrary\src\BooksLibrary.Domain\obj\Debug\net5.0\BooksLibrary.Domain.AssemblyInfoInputs.cache
+E:\Programavimas\BIT mokymai\NET\BooksLibrary\src\BooksLibrary.Domain\obj\Debug\net5.0\BooksLibrary.Domain.AssemblyInfo.cs
+E:\Programavimas\BIT mokymai\NET\BooksLibrary\src\BooksLibrary.Domain\obj\Debug\net5.0\BooksLibrary.Domain.csproj.CoreCompileInputs.cache
+E:\Programavimas\BIT mokymai\NET\BooksLibrary\src\BooksLibrary.Domain\obj\Debug\net5.0\BooksLibrary.Domain.dll
+E:\Programavimas\BIT mokymai\NET\BooksLibrary\src\BooksLibrary.Domain\obj\Debug\net5.0\ref\BooksLibrary.Domain.dll
+E:\Programavimas\BIT mokymai\NET\BooksLibrary\src\BooksLibrary.Domain\obj\Debug\net5.0\BooksLibrary.Domain.pdb
