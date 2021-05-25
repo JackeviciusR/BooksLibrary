@@ -1,7 +1,7 @@
 ## BooksLibrary
-CLI application with minimalistic UI design
-------------------------------------------
-#### Application work.
+##### CLI application with minimalistic UI design
+-------------
+#### The Application works.
 
 ### Used:
 - .NET5;
@@ -13,9 +13,13 @@ CLI application with minimalistic UI design
 - Services
 - LINQ
 - JSON (Newtonsoft.JSON)
+- xUnit Tests
+- FluentAssertions
+- Moq
+- AutoFixure
 
 ### Whats the plan:
-- Unit Tests (Xunit, Moq);
+- Complete the Unit Tests
 - Need add more validation;
 - Insert DataService for better data manipulation and saving;
 - Refractoring code;
