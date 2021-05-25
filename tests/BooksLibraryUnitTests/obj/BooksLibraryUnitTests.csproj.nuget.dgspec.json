@@ -4,14 +4,72 @@
     "E:\\Programavimas\\BIT mokymai\\NET\\BooksLibrary\\tests\\BooksLibraryUnitTests\\BooksLibraryUnitTests.csproj": {}
   },
   "projects": {
-    "E:\\Programavimas\\BIT mokymai\\NET\\BooksLibrary\\tests\\BooksLibraryUnitTests\\BooksLibraryUnitTests.csproj": {
+    "E:\\Programavimas\\BIT mokymai\\NET\\BooksLibrary\\src\\BooksLibrary.Application\\BooksLibrary.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Programavimas\\BIT mokymai\\NET\\BooksLibrary\\tests\\BooksLibraryUnitTests\\BooksLibraryUnitTests.csproj",
-        "projectName": "BooksLibraryUnitTests",
-        "projectPath": "E:\\Programavimas\\BIT mokymai\\NET\\BooksLibrary\\tests\\BooksLibraryUnitTests\\BooksLibraryUnitTests.csproj",
+        "projectUniqueName": "E:\\Programavimas\\BIT mokymai\\NET\\BooksLibrary\\src\\BooksLibrary.Application\\BooksLibrary.Application.csproj",
+        "projectName": "BooksLibrary.Application",
+        "projectPath": "E:\\Programavimas\\BIT mokymai\\NET\\BooksLibrary\\src\\BooksLibrary.Application\\BooksLibrary.Application.csproj",
         "packagesPath": "C:\\Users\\Rokas\\.nuget\\packages\\",
-        "outputPath": "E:\\Programavimas\\BIT mokymai\\NET\\BooksLibrary\\tests\\BooksLibraryUnitTests\\obj\\",
+        "outputPath": "E:\\Programavimas\\BIT mokymai\\NET\\BooksLibrary\\src\\BooksLibrary.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rokas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\Programavimas\\BIT mokymai\\NET\\BooksLibrary\\src\\BooksLibrary.Domain\\BooksLibrary.Domain.csproj": {
+                "projectPath": "E:\\Programavimas\\BIT mokymai\\NET\\BooksLibrary\\src\\BooksLibrary.Domain\\BooksLibrary.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Programavimas\\BIT mokymai\\NET\\BooksLibrary\\src\\BooksLibrary.Domain\\BooksLibrary.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Programavimas\\BIT mokymai\\NET\\BooksLibrary\\src\\BooksLibrary.Domain\\BooksLibrary.Domain.csproj",
+        "projectName": "BooksLibrary.Domain",
+        "projectPath": "E:\\Programavimas\\BIT mokymai\\NET\\BooksLibrary\\src\\BooksLibrary.Domain\\BooksLibrary.Domain.csproj",
+        "packagesPath": "C:\\Users\\Rokas\\.nuget\\packages\\",
+        "outputPath": "E:\\Programavimas\\BIT mokymai\\NET\\BooksLibrary\\src\\BooksLibrary.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rokas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,21 +98,104 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "MSTest.TestAdapter": {
+            "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[2.1.1, )"
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Programavimas\\BIT mokymai\\NET\\BooksLibrary\\tests\\BooksLibraryUnitTests\\BooksLibraryUnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Programavimas\\BIT mokymai\\NET\\BooksLibrary\\tests\\BooksLibraryUnitTests\\BooksLibraryUnitTests.csproj",
+        "projectName": "BooksLibraryUnitTests",
+        "projectPath": "E:\\Programavimas\\BIT mokymai\\NET\\BooksLibrary\\tests\\BooksLibraryUnitTests\\BooksLibraryUnitTests.csproj",
+        "packagesPath": "C:\\Users\\Rokas\\.nuget\\packages\\",
+        "outputPath": "E:\\Programavimas\\BIT mokymai\\NET\\BooksLibrary\\tests\\BooksLibraryUnitTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rokas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\Programavimas\\BIT mokymai\\NET\\BooksLibrary\\src\\BooksLibrary.Application\\BooksLibrary.Application.csproj": {
+                "projectPath": "E:\\Programavimas\\BIT mokymai\\NET\\BooksLibrary\\src\\BooksLibrary.Application\\BooksLibrary.Application.csproj"
+              },
+              "E:\\Programavimas\\BIT mokymai\\NET\\BooksLibrary\\src\\BooksLibrary.Domain\\BooksLibrary.Domain.csproj": {
+                "projectPath": "E:\\Programavimas\\BIT mokymai\\NET\\BooksLibrary\\src\\BooksLibrary.Domain\\BooksLibrary.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoFixture": {
+              "target": "Package",
+              "version": "[4.17.0, )"
             },
-            "MSTest.TestFramework": {
+            "FluentAssertions": {
               "target": "Package",
-              "version": "[2.1.1, )"
+              "version": "[5.10.3, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.7.1, )"
             },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
             "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[1.3.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
             }
           },
           "imports": [

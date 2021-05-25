@@ -39,7 +39,7 @@ namespace BooksLibrary.Application
         {
             try
             {
-                var commandString = _writer.ReadLine("Please enter your command:").ToUpper();
+                var commandString = _writer.ReadLine("Please enter your command:");
 
                 var command = _commandFactory.Build(commandString);
 

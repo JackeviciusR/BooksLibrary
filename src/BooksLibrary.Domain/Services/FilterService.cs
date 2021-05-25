@@ -42,7 +42,7 @@ namespace BooksLibrary.Domain.Services
 
         public IEnumerable<Book> filterByTakenBook(IEnumerable<Book> books)
         {
-            return books.Where(b => b.Author != null).OrderBy(b => b.ISBN);
+            return books.Where(b => b.ClientId != null).OrderBy(b => b.ISBN);
         }
     }
 }

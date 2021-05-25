@@ -28,7 +28,7 @@ namespace BooksLibrary.Domain.Factories
         public ICommand Build(string input)
         {
             
-            if (Enum.TryParse(input, out CommandsEnums commandEnum))
+            if (Enum.TryParse(input.ToUpper(), out CommandsEnums commandEnum))
             {
                 switch (commandEnum)
                 {
